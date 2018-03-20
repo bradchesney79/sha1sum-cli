@@ -3,16 +3,16 @@ Cross Platform CLI File SHA-1 Hash Generator
 
 Install Globally:
 
-$ npm install -g sha1sum-cli
+```$ npm install -g sha1sum-cli```
 
 Usage:
 
-$ sha1sum \[path/\]filename
+```$ sha1sum \[path/\]filename```
 
 Display help:
 
-$ sha1sum -h
-$ sha1sum --help
+```$ sha1sum -h```
+```$ sha1sum --help```
 
 So, this is a command line npm package that simulates the sha1sum command on linux.
 
@@ -29,10 +29,10 @@ I've left my work both as free as in speech and free as in beer as I could manag
 P.S. 
 The way I actually install it:
 
-$ npm install --save-dev sha1sum-cli
+```$ npm install --save-dev sha1sum-cli```
 
 The ways I actually use it:
 
-$ node node_modules/sha1sum/bin/sha1sum.js \[path/\]filename
+```$ node node_modules/sha1sum/bin/sha1sum.js \[path/\]filename```
 
-$ sed -i s/%REPLACEABLE_BUILD_VERSION_HASH%/`node node_modules/sha1sum/bin/sha1sum.js \[path/\]filename`/g
+```$ sed -i s/%REPLACEABLE_BUILD_VERSION_HASH%/`node node_modules/sha1sum/bin/sha1sum.js \[path/\]filename`/g```
