@@ -1,0 +1,34 @@
+{
+  "name": "sha1sum-cli",
+  "version": "1.0.0",
+  "description": "Cross Platform CLI File SHA-1 Hash Generator",
+  "main": "bin/sha1sum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradchesney79/sha1sum-cli.git"
+  },
+  "keywords": [
+    "npm",
+    "sha",
+    "cli",
+    "javascript",
+    "hash"
+  ],
+  "author": "Brad Chesney",
+  "license": "CC0-1.0",
+  "bin": {
+    "sha1sum": "bin/sha1sum.js"
+  },
+  "bugs": {
+    "url": "https://github.com/bradchesney79/sha1sum-cli/issues"
+  },
+  "homepage": "https://github.com/bradchesney79/sha1sum-cli#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "fs": "0.0.1-security",
+    "shasum": "^1.0.2"
+  }
+}
